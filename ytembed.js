@@ -356,7 +356,7 @@ var ytEmbed = {
                             token: json.nextPageToken
                         }), false);
                     }
-                    a.innerHTML = 'Load next...';
+                    a.innerHTML = 'Berikutnya';
                     li.appendChild(a); //do through bind
                     pul.appendChild(li);
                 }
@@ -374,7 +374,7 @@ var ytEmbed = {
                             token: json.prevPageToken
                         }), false);
                     }
-                    a.innerHTML = 'Load previous...';
+                    a.innerHTML = 'Sebelumnya';
                     li.appendChild(a);
                     pul.appendChild(li);
                 }
