@@ -74,7 +74,7 @@ var ytEmbed = {
                     this.cfg.thumbnail = 200;
                 }
                 if (!this.cfg.height) {
-                    this.cfg.height = auto;
+                    this.cfg.height = 315;
                 }
                 if (!this.cfg.width) {
                     this.cfg.width = 100%;
